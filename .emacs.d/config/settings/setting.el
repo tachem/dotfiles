@@ -42,7 +42,6 @@
    "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
-
 ;; flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
 ; flycheck-pop-tip
