@@ -50,6 +50,10 @@
   '(custom-set-variables
     '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
 
+;; exec-path-from-shell -> shellとpathの共有
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 ;; vagrant-tramp
 (eval-after-load 'tramp
   '(vagrant-tramp-enable))
