@@ -6,6 +6,7 @@
 (require 'interface)
 (require 'keybind)
 (require 'setting)
+(require 'set-helm)
 (require 'tool)
 
 (provide 'load-paths)

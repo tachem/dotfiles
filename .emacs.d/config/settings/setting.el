@@ -77,4 +77,15 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; smooth-scroll
+(require 'smooth-scroll)
+(smooth-scroll-mode t)
+(setq scroll-step 1)
+
+;; auto-complete
+(ac-config-default)
+
+;; anzu
+(global-anzu-mode +1)
+
 (provide 'setting)

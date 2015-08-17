@@ -36,3 +36,7 @@
 (depends-on "popup")
 (depends-on "vagrant-tramp")
 (depends-on "yascroll")
+(depends-on "smooth-scroll" :git "https://github.com/k-talo/smooth-scroll.el.git")
+(depends-on "auto-complete")
+(depends-on "helm")
+(depends-on "anzu")
