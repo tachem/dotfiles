@@ -40,3 +40,4 @@
 (depends-on "auto-complete")
 (depends-on "helm")
 (depends-on "anzu")
+(depends-on "slim-mode")

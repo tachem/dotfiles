@@ -7,6 +7,7 @@
 (require 'keybind)
 (require 'setting)
 (require 'set-helm)
+(require 'set-slim-mode)
 (require 'tool)
 
 (provide 'load-paths)
