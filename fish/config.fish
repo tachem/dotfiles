@@ -18,3 +18,6 @@ end
 function sed
     gsed $argv
 end
+
+# nodebrew
+set -x PATH $HOME/.nodebrew/current/bin $PATH
