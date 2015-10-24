@@ -42,3 +42,4 @@
 (depends-on "anzu")
 (depends-on "slim-mode")
 (depends-on "scss-mode")
+(depends-on "coffee-mode")
