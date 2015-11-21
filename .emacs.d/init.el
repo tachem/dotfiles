@@ -3,6 +3,7 @@
 (cask-initialize)
 
 ;; load path
+(add-to-list 'load-path "~/.emacs.d/auto-install")
 (add-to-list 'load-path "~/.emacs.d/config")
 (require 'load-paths)
 

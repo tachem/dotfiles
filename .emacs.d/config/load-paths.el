@@ -9,6 +9,7 @@
 (require 'set-helm)
 (require 'set-slim-mode)
 (require 'set-scss-mode)
+(require 'set-ddskk)
 (require 'tool)
 
 (provide 'load-paths)
