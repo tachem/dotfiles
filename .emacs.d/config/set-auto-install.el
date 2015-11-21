@@ -3,7 +3,4 @@
 (auto-install-update-emacswiki-package-name t)
 (auto-install-compatibility-setup)
 
-(require 'sticky)
-(setq skk-sticky-key ";")
-
-(provide 'set-ddskk)
+(provide 'set-auto-install)

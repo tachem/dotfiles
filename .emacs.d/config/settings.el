@@ -1,7 +1,7 @@
-; backup_file(*.~) nil
+;; backup_file(*.~) nil
 (setq make-backup-files nil)
 
-; auto-save_file(#*.#) nil
+;; auto-save_file(#*.#) nil
 (setq auto-save-default nil)
 
 ;; 対応する括弧を光らせる
@@ -11,10 +11,10 @@
 (setq-default tab-width 4 indent-tabs-mode nil)
 
 ;; メニューバー非表示
-;(menu-bar-mode -1)
+; (menu-bar-mode -1)
 
 ;; ツールバー非表示
-;(tool-bar-mode -1)
+; (tool-bar-mode -1)
 
 ;; 行番号の表示
 (global-linum-mode t)
@@ -26,7 +26,7 @@
 (global-hl-line-mode)
 
 ;; スクロールバーを右側へ
-;(set-scroll-bar-mode 'right)
+; (set-scroll-bar-mode 'right)
 
 ;; add web-mode
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
@@ -42,9 +42,9 @@
    "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
-;; flycheck
+;;;; flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
-; flycheck-pop-tip
+;; flycheck-pop-tip
 (eval-after-load 'flycheck
   '(custom-set-variables
     '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
@@ -57,10 +57,10 @@
 (eval-after-load 'tramp
   '(vagrant-tramp-enable))
 
-;; ddskk
-; set input method
+;;;; ddskk
+;; set input method
 (setq default-input-method "japanese-skk")
-; ddskk jisyo
+;; ddskk jisyo
 (setq skk-user-directory "~/Library/Application Support/AquaSKK/")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -88,4 +88,4 @@
 ;; anzu
 (global-anzu-mode +1)
 
-(provide 'setting)
+(provide 'settings)

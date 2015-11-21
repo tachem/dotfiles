@@ -1,6 +1,6 @@
-;====================================
-;;全角スペースとかに色を付ける
-;====================================
+;; ====================================
+;;;; 全角スペースとかに色を付ける
+;; ====================================
 (defface my-face-b-1 '((t (:background "SeaGreen"))) nil)
 (defface my-face-b-1 '((t (:background "SeaGreen"))) nil)
 (defface my-face-b-2 '((t (:background "SeaGreen"))) nil)
@@ -66,11 +66,10 @@
 
 (my-window-size-load)
 
-; Call the function above at C-x C-c.
+;; Call the function above at C-x C-c.
 (defadvice save-buffers-kill-emacs
   (before save-frame-size activate)
   (my-window-size-save))
-
 
 ;; 分割したウィンドウの大きさをインタラクティブに変更する
 (defun window-resizer ()
@@ -102,7 +101,7 @@
                (message "Quit")
                (throw 'end-flag t)))))))
 
-; Call the function above C-c C-r
+;; Call the function above C-c C-r
 (global-set-key "\C-c\C-r" 'window-resizer)
 
-(provide 'tool)
+(provide 'tools)
