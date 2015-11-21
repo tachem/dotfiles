@@ -15,6 +15,7 @@
 (require 'set-helm)
 (require 'set-scss-mode)
 (require 'set-slim-mode)
+(require 'set-avy)
 (require 'settings)
 (require 'tools)
 
