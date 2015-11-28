@@ -33,6 +33,7 @@
 (depends-on "helm")
 (depends-on "exec-path-from-shell")
 (depends-on "vagrant-tramp")
+(depends-on "wakatime-mode")
 
 ;; input
 (depends-on "ddskk")
@@ -60,3 +61,4 @@
 (depends-on "scss-mode")
 
 (depends-on "markdown-mode")
+(depends-on "yaml-mode")

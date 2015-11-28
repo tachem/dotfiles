@@ -88,4 +88,9 @@
 ;; anzu
 (global-anzu-mode +1)
 
+;; 行末のスペースを削除
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+
+
 (provide 'settings)

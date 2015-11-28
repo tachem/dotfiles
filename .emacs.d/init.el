@@ -16,6 +16,7 @@
 (require 'set-scss-mode)
 (require 'set-slim-mode)
 (require 'set-avy)
+(require 'set-wakatime)
 (require 'settings)
 (require 'tools)
 
