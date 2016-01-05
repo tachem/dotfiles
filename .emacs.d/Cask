@@ -34,6 +34,7 @@
 (depends-on "exec-path-from-shell")
 (depends-on "vagrant-tramp")
 (depends-on "wakatime-mode")
+(depends-on "neotree")
 
 ;; input
 (depends-on "ddskk")
