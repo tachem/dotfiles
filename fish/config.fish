@@ -6,18 +6,15 @@ pyenv rehash > /dev/null ^&1
 set -x PATH $HOME/.rbenv/bin $HOME/.rbenv/shims $PATH
 rbenv rehash > /dev/null ^&1
 
-# mysql
-set -x PATH /usr/local/mysql/bin /usr/local/mysql/support-files $PATH
-
-# ctags -> exuberant ctags
-function ctags
-    /usr/local/Cellar/ctags/5.8_1/bin/ctags $argv
-end
+# nodebrew
+set -x PATH $HOME/.nodebrew/current/bin $PATH
 
 # seg -> gnu_sed
 function sed
     gsed $argv
 end
 
-# nodebrew
-set -x PATH $HOME/.nodebrew/current/bin $PATH
+# ctags -> exuberant ctags
+function ctags
+    /usr/local/Cellar/ctags/5.8_1/bin/ctags $argv
+end
