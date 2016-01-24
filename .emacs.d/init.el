@@ -20,6 +20,6 @@
 (require 'settings)
 (require 'tools)
 
-;; Visual Studio Code theme
-(load-theme 'vsc t)
+;; vsc-theme
+(load-theme 'vsc t t)
 (enable-theme 'vsc)
