@@ -1,6 +1,6 @@
 (helm-mode 1)
 
-;;;; ミニバッファ
+;; ミニバッファ
 ;; "C-h"で削除
 (define-key helm-map (kbd "C-h") 'delete-backward-char)
 (define-key helm-find-files-map (kbd "C-h") 'delete-backward-char)

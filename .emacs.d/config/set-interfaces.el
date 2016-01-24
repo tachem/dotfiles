@@ -1,4 +1,4 @@
-;; font set ricty
+;; ricty
 (set-face-attribute 'default nil
                     :family "Ricty Discord"
                     :height 140)
@@ -13,6 +13,6 @@
                   (cons "Ricty Discord" "iso10646-1"))
 
 ;; 背景の透過
-; (set-frame-parameter nil 'alpha 85)
+;; (set-frame-parameter nil 'alpha 85)
 
 (provide 'set-interfaces)
