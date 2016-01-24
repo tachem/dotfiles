@@ -27,18 +27,16 @@
 (depends-on "web-mode")
 (depends-on "yasnippet")
 
-;;;; add
 ;; base
 (depends-on "auto-install")
 (depends-on "helm")
-(depends-on "exec-path-from-shell")
+(depends-on "neotree")
 (depends-on "vagrant-tramp")
 (depends-on "wakatime-mode")
-(depends-on "neotree")
 
 ;; input
-(depends-on "ddskk")
 (depends-on "auto-complete")
+(depends-on "ddskk")
 
 ;; screen
 (depends-on "yascroll")
@@ -48,18 +46,17 @@
 (depends-on "anzu")
 (depends-on "avy")
 
-;;;; programming
+;; programming
 (depends-on "flycheck")
 (depends-on "flycheck-pos-tip")
 (depends-on "popup")
 
-;;;; front-end
-(depends-on "web-mode")
+;; front-end
 (depends-on "coffee-mode")
+(depends-on "web-mode")
 
 ;; markup
-(depends-on "slim-mode")
-(depends-on "scss-mode")
-
 (depends-on "markdown-mode")
+(depends-on "scss-mode")
+(depends-on "slim-mode")
 (depends-on "yaml-mode")
