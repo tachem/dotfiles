@@ -1,4 +1,16 @@
-;; ricty
+;; C-h to backspace
+(keyboard-translate ?\C-h ?\C-?)
+
+;; ddskk
+(setq default-input-method "japanese-skk")
+(setq skk-sticky-key ";")
+(global-set-key "\C-xj" 'skk-mode)
+
+;; tab width
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+
+;; font
 (set-face-attribute 'default nil
                     :family "Ricty Discord"
                     :height 140)
@@ -12,7 +24,10 @@
                   'katakana-jisx0201
                   (cons "Ricty Discord" "iso10646-1"))
 
-;; 背景の透過
-;; (set-frame-parameter nil 'alpha 85)
+;; auto-complete
+(ac-config-default)
 
-(provide 'set-interfaces)
+;; anzu
+(global-anzu-mode t)
+
+(provide 'set-input)

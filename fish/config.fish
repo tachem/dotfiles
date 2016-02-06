@@ -9,12 +9,7 @@ rbenv rehash > /dev/null ^&1
 # nodebrew
 set -x PATH $HOME/.nodebrew/current/bin $PATH
 
-# seg -> gnu_sed
+# sed -> gnu_sed
 function sed
     gsed $argv
-end
-
-# ctags -> exuberant ctags
-function ctags
-    /usr/local/Cellar/ctags/5.8_1/bin/ctags $argv
 end
