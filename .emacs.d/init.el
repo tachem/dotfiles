@@ -1,6 +1,3 @@
-;; language
-(set-language-environment "Japanese")
-
 ;; cask
 (require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
 (cask-initialize)
@@ -11,6 +8,9 @@
 
 ;; path
 (add-to-list 'load-path "~/.emacs.d/config")
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
 
 ;; load config files
 (require 'set-base)

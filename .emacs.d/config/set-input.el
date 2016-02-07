@@ -24,6 +24,9 @@
                   'katakana-jisx0201
                   (cons "Ricty Discord" "iso10646-1"))
 
+;; language
+(modify-coding-system-alist 'file "\\.tex\\'" 'euc-japan-unix)
+
 ;; auto-complete
 (ac-config-default)
 
