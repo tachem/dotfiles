@@ -1,5 +1,7 @@
 ;; cask
-(require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+(if (equal system-type 'darwin)
+    (require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+  (require 'cask "~/.cask/cask.el"))
 (cask-initialize)
 
 ;; load theme on Emacs theme framework
