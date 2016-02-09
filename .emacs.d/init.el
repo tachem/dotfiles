@@ -14,10 +14,5 @@
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
-;; load config files
-(require 'set-base)
-(require 'set-input)
-(require 'set-screen)
-(require 'set-helm)
-(require 'set-web-mode)
-(require 'set-wakatime)
+;; init-loader
+(require 'init-loader-config)

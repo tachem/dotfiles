@@ -29,6 +29,9 @@
 ;; vsc-theme
 (depends-on "yascroll")
 
+;; base
+(depends-on "init-loader")
+
 ;; input
 (depends-on "ddskk")
 (depends-on "auto-complete")
