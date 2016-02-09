@@ -18,3 +18,4 @@
 (require 'set-screen)
 (require 'set-helm)
 (require 'set-web-mode)
+(require 'set-wakatime)
