@@ -34,5 +34,3 @@
 
 ;; fullscreen
 (set-frame-parameter nil 'fullscreen 'maximized)
-
-(provide 'set-screen)

@@ -6,5 +6,3 @@
 
 ;; beep
 (setq ring-bell-function 'ignore)
-
-(provide 'set-base)

@@ -32,5 +32,3 @@
 
 ;; anzu
 (global-anzu-mode t)
-
-(provide 'set-input)

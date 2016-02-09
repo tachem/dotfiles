@@ -11,5 +11,3 @@
   (setq-default tab-width 2)
 )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
-
-(provide 'set-web-mode)
