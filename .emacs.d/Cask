@@ -38,6 +38,7 @@
 (depends-on "flycheck-pos-tip")
 (depends-on "neotree")
 (depends-on "helm")
+(depends-on "indent-guide")
 
 ;; wakatime
 (depends-on "wakatime-mode")
