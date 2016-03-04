@@ -2,6 +2,6 @@
 
 (defun my-tex-mode-hook ()
   "Hooks for TeX mode."
-  (setq skk-kutouten-type '("." . ","))
+  ;; (setq skk-kutouten-type '("." . ","))
   )
 (add-hook 'tex-mode-hook 'my-tex-mode-hook)
