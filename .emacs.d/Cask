@@ -48,3 +48,4 @@
 
 ;; python
 (depends-on "jedi")
+(depends-on "iedit")

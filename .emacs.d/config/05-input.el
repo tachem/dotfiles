@@ -29,3 +29,6 @@
 
 ;; anzu
 (global-anzu-mode t)
+
+;; iedit
+(iedit-mode t)
