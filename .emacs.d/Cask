@@ -45,3 +45,6 @@
 
 ;; wakatime
 (depends-on "wakatime-mode")
+
+;; python
+(depends-on "jedi")
