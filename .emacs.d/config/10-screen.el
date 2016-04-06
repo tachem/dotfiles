@@ -16,10 +16,10 @@
                     :foreground "DeepSkyBlue"
                     :underline t)
 
-;; indent depth
-(require 'indent-guide)
-(indent-guide-global-mode)
-(setq indent-guide-recursive t)
+;; ;; indent depth
+;; (require 'indent-guide)
+;; (indent-guide-global-mode)
+;; (setq indent-guide-recursive t)
 
 ;; flycheck
 (global-flycheck-mode)
