@@ -34,3 +34,6 @@
 
 ;; fullscreen
 (set-frame-parameter nil 'fullscreen 'maximized)
+
+;; git
+(global-auto-revert-mode t)
