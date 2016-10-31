@@ -43,6 +43,9 @@
 (depends-on "neotree")
 (depends-on "helm")
 (depends-on "indent-guide")
+(depends-on "highlight-symbol")
+(depends-on "spaceline")
+(depends-on "mode-icons")
 
 ;; wakatime
 (depends-on "wakatime-mode")
