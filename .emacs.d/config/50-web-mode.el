@@ -5,9 +5,10 @@
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jinja2\\'" . web-mode))
 (setq web-mode-engines-alist
-      '(("django" . "\\.html?\\'")
+      '(
+        ("mako" . "\\.html?\\'")
         ("django" . "\\.jinja2\\'")
-        ("mako" . "\\.html?\\'"))
+        )
       )
 (defun my-web-mode-hook ()
   "Hooks for Web mode."
