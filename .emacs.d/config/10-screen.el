@@ -22,9 +22,9 @@
 ;; (setq indent-guide-recursive t)
 
 ;; flycheck
-(global-flycheck-mode)
+;; (global-flycheck-mode)
 ;; flycheck-pos-tip
-(with-eval-after-load 'flycheck (flycheck-pos-tip-mode))
+;; (with-eval-after-load 'flycheck (flycheck-pos-tip-mode))
 
 ;; neotree
 (define-key global-map (kbd "s-\\") 'neotree-toggle)
@@ -37,3 +37,21 @@
 
 ;; git
 (global-auto-revert-mode t)
+
+;; highlight-symbol
+(add-hook 'prog-mode-hook 'highlight-symbol-mode)
+(add-hook 'prog-mode-hook 'highlight-symbol-nav-mode)
+
+(setq highlight-symbol-idle-delay 0.1)
+
+;; spaceline
+(setq ns-use-srgb-colorspace nil)
+
+(require 'spaceline-config)
+;; (spaceline-spacemacs-theme)
+(spaceline-emacs-theme)
+
+
+;; mode-icons
+(mode-icons-mode)
+(setq mode-icons-change-mode-name nil)
