@@ -1,6 +1,9 @@
 ;; column
 (column-number-mode t)
 
+;; scroll
+(setq scroll-conservatively 1)
+
 ;; whitespace line-tail/tab
 (require 'whitespace)
 (setq whitespace-style '(face trailing tabs tab-mark))

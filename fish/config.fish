@@ -1,3 +1,6 @@
+# diff-highlight
+set -x PATH /usr/local/share/git-core/contrib/diff-highlight $PATH
+
 # pyenv
 status --is-interactive; and source (pyenv init -|psub)
 
